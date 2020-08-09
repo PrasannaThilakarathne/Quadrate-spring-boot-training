@@ -1,4 +1,4 @@
-package com.spring.SpringBootJSP;
+package com.spring.freemarker;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
