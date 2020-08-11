@@ -2,9 +2,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title th:text="'Hello, ' + ${name} + '!'"></title>
+<link href="/css/main.css" rel="stylesheet">
 </head>
 <body>
-
+	<h2 class="hello-title" th:text="'Hello, ' + ${name} + '!'"></h2>
+	<script src="/js/main.js"></script>
 </body>
 </html>
